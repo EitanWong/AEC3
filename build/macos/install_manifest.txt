@@ -1,0 +1,9 @@
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/lib/libAEC3.dylib
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/lib/cmake/AEC3/AEC3Targets.cmake
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/lib/cmake/AEC3/AEC3Targets-release.cmake
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/lib/cmake/AEC3/AEC3Config.cmake
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/lib/cmake/AEC3/AEC3ConfigVersion.cmake
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/include/api/echo_canceller3_config_json.h
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/include/api/echo_canceller3_config.h
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/include/api/echo_control.h
+/Users/eitan/Documents/Projects/C/AEC3/install/macos/include/api/echo_canceller3_factory.h

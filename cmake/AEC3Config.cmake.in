@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/AEC3Targets.cmake")
+check_required_components(AEC3)
+
+# Set the AEC3 package information
+set(AEC3_LIBRARIES AEC3::AEC3)
+set(AEC3_INCLUDE_DIRS "${PACKAGE_PREFIX_DIR}/include") 
