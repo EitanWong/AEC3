@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o: \
   /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc \
   /Users/eitan/Documents/Projects/C/AEC3/demo/../audio_processing/logging/apm_data_dumper.h \
-  /Users/eitan/Documents/Projects/C/AEC3/demo/../build_config.h \
+  /Users/eitan/Documents/Projects/C/AEC3/demo/../api/build_config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

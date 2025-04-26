@@ -1,0 +1,7 @@
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/libaec.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/edit_cache.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/rebuild_cache.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/list_install_components.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/install.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/install/local.dir
+/Users/eitan/Documents/Projects/C/AEC3/build/macos-x86_64/CMakeFiles/install/strip.dir

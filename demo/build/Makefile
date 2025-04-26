@@ -129,6 +129,30 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.o: Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.o
+
+# target to build an object file
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o
+
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.i: Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.i
+
+# target to preprocess a source file
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i
+
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.s: Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.s
+
+# target to generate assembly for a file
+Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s
+.PHONY : Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s
+
 Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.o: Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.cc.o
 .PHONY : Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.o
 
@@ -2538,6 +2562,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demo"
+	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.o"
+	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.i"
+	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.s"
 	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.o"
 	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.i"
 	@echo "... Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.s"

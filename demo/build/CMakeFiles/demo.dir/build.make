@@ -156,10 +156,24 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_fa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_factory.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_factory.cc -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_factory.cc.s
 
+CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o: /Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc
+CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc
+
+CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc > CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.i
+
+CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.s
+
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/s
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o: /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o -c /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/s
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o: /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o -c /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/s
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/field_trial.cc.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/s
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/metrics.cc.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/s
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_utils.cc.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/time_uti
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform_thread_types.cc.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/platform
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc.i: cmake_force
@@ -271,7 +285,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_che
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_encode.cc.i: cmake_force
@@ -285,7 +299,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_e
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_to_number.cc.i: cmake_force
@@ -299,7 +313,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_t
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_utils.cc.i: cmake_force
@@ -313,7 +327,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/string_u
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical_section.cc.i: cmake_force
@@ -327,7 +341,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/critical
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.cc.i: cmake_force
@@ -341,7 +355,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/logging.
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.cc.i: cmake_force
@@ -355,7 +369,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/checks.c
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/string_builder.cc.i: cmake_force
@@ -369,7 +383,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/json.cc.i: cmake_force
@@ -383,7 +397,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/strings/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/aligned_malloc.cc.i: cmake_force
@@ -397,7 +411,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/memory/a
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o: /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/file_wrapper.cc.i: cmake_force
@@ -411,7 +425,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/system/f
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o: /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.o -c /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_reader.cpp.i: cmake_force
@@ -425,7 +439,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_j
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o: /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.o -c /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_value.cpp.i: cmake_force
@@ -439,7 +453,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_j
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o: /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.o -c /Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_json/json_writer.cpp.i: cmake_force
@@ -453,7 +467,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/jsoncpp/src/lib_j
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_buffer.cc.i: cmake_force
@@ -467,7 +481,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio_frame.cc.i: cmake_force
@@ -481,7 +495,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/audio
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_buffer.cc.i: cmake_force
@@ -495,7 +509,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/chann
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/channel_layout.cc.i: cmake_force
@@ -509,7 +523,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/chann
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_pass_filter.cc.i: cmake_force
@@ -523,7 +537,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/high_
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/sparse_fir_filter.cc.i: cmake_force
@@ -537,7 +551,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/spars
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter.cc.i: cmake_force
@@ -551,7 +565,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/split
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -include stddef.h -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/splitting_filter_c.c.i: cmake_force
@@ -565,7 +579,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/split
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three_band_filter_bank.cc.i: cmake_force
@@ -579,7 +593,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/three
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/apm_data_dumper.cc.i: cmake_force
@@ -593,7 +607,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/loggi
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_file.cc.i: cmake_force
@@ -607,7 +621,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/loggi
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/logging/wav_header.cc.i: cmake_force
@@ -621,7 +635,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/loggi
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/push_sinc_resampler.cc.i: cmake_force
@@ -635,7 +649,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resam
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resampler/sinc_resampler.cc.i: cmake_force
@@ -649,7 +663,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/resam
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/cascaded_biquad_filter.cc.i: cmake_force
@@ -663,7 +677,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utili
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/ooura_fft.cc.i: cmake_force
@@ -677,7 +691,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utili
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/pffft_wrapper.cc.i: cmake_force
@@ -691,7 +705,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utili
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator.cc.i: cmake_force
@@ -705,7 +719,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utili
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utility/delay_estimator_wrapper.cc.i: cmake_force
@@ -719,7 +733,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/utili
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover.cc.i: cmake_force
@@ -733,7 +747,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_remover_metrics.cc.i: cmake_force
@@ -747,7 +761,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_buffer.cc.i: cmake_force
@@ -761,7 +775,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller.cc.i: cmake_force
@@ -775,7 +789,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_delay_controller_metrics.cc.i: cmake_force
@@ -789,7 +803,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_buffer.cc.i: cmake_force
@@ -803,7 +817,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/render_signal_analyzer.cc.i: cmake_force
@@ -817,7 +831,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/residual_echo_estimator.cc.i: cmake_force
@@ -831,7 +845,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor.cc.i: cmake_force
@@ -845,7 +859,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output.cc.i: cmake_force
@@ -859,7 +873,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_filter.cc.i: cmake_force
@@ -873,7 +887,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/suppression_gain.cc.i: cmake_force
@@ -887,7 +901,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_delay_estimator.cc.i: cmake_force
@@ -901,7 +915,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_path_variability.cc.i: cmake_force
@@ -915,7 +929,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/downsampled_render_buffer.cc.i: cmake_force
@@ -929,7 +943,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fft_buffer.cc.i: cmake_force
@@ -943,7 +957,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/spectrum_buffer.cc.i: cmake_force
@@ -957,7 +971,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter.cc.i: cmake_force
@@ -971,7 +985,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/matched_filter_lag_aggregator.cc.i: cmake_force
@@ -985,7 +999,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/frame_blocker.cc.i: cmake_force
@@ -999,7 +1013,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/filter_analyzer.cc.i: cmake_force
@@ -1013,7 +1027,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erl_estimator.cc.i: cmake_force
@@ -1027,7 +1041,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/erle_estimator.cc.i: cmake_force
@@ -1041,7 +1055,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/fullband_erle_estimator.cc.i: cmake_force
@@ -1055,7 +1069,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/main_filter_update_gain.cc.i: cmake_force
@@ -1069,7 +1083,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/shadow_filter_update_gain.cc.i: cmake_force
@@ -1083,7 +1097,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/signal_dependent_erle_estimator.cc.i: cmake_force
@@ -1097,7 +1111,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/stationarity_estimator.cc.i: cmake_force
@@ -1111,7 +1125,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_erle_estimator.cc.i: cmake_force
@@ -1125,7 +1139,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subband_nearend_detector.cc.i: cmake_force
@@ -1139,7 +1153,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_decay_estimator.cc.i: cmake_force
@@ -1153,7 +1167,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_frequency_response.cc.i: cmake_force
@@ -1167,7 +1181,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model.cc.i: cmake_force
@@ -1181,7 +1195,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/reverb_model_estimator.cc.i: cmake_force
@@ -1195,7 +1209,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/moving_average.cc.i: cmake_force
@@ -1209,7 +1223,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_common.cc.i: cmake_force
@@ -1223,7 +1237,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec3_fft.cc.i: cmake_force
@@ -1237,7 +1251,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/aec_state.cc.i: cmake_force
@@ -1251,7 +1265,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter.cc.i: cmake_force
@@ -1265,7 +1279,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/alignment_mixer.cc.i: cmake_force
@@ -1279,7 +1293,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_buffer.cc.i: cmake_force
@@ -1293,7 +1307,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_framer.cc.i: cmake_force
@@ -1307,7 +1321,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor.cc.i: cmake_force
@@ -1321,7 +1335,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/clockdrift_detector.cc.i: cmake_force
@@ -1335,7 +1349,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/comfort_noise_generator.cc.i: cmake_force
@@ -1349,7 +1363,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/decimator.cc.i: cmake_force
@@ -1363,7 +1377,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/dominant_nearend_detector.cc.i: cmake_force
@@ -1377,7 +1391,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/subtractor_output_analyzer.cc.i: cmake_force
@@ -1391,7 +1405,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_audibility.cc.i: cmake_force
@@ -1405,7 +1419,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_processor_metrics.cc.i: cmake_force
@@ -1419,7 +1433,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/adaptive_fir_filter_erl.cc.i: cmake_force
@@ -1433,7 +1447,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/echo_canceller3.cc.i: cmake_force
@@ -1447,7 +1461,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/block_delay_buffer.cc.i: cmake_force
@@ -1461,7 +1475,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o: /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o -MF CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o.d -o CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o -c /Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc
 
 CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.i: cmake_force
@@ -1480,6 +1494,7 @@ demo_OBJECTS = \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.cc.o" \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config_json.cc.o" \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_factory.cc.o" \
+"CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o" \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o" \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o" \
 "CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o" \
@@ -1584,6 +1599,7 @@ demo: CMakeFiles/demo.dir/wavwriter.c.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config.cc.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_config_json.cc.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/echo_canceller3_factory.cc.o
+demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.cc.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features.cc.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_android.c.o
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/system_wrappers/source/cpu_features_linux.c.o
@@ -1680,7 +1696,7 @@ demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing
 demo: CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/aec3/api_call_jitter_metrics.cc.o
 demo: CMakeFiles/demo.dir/build.make
 demo: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Linking CXX executable demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

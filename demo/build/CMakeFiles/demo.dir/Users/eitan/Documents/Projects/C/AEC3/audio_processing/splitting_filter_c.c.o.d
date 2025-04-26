@@ -10,7 +10,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/audio_processing/split
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
   /Users/eitan/Documents/Projects/C/AEC3/demo/../base/rtc_base/checks.h \
-  /Users/eitan/Documents/Projects/C/AEC3/demo/../build_config.h \
+  /Users/eitan/Documents/Projects/C/AEC3/demo/../api/build_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \

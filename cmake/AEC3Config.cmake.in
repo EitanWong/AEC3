@@ -1,8 +1,20 @@
 @PACKAGE_INIT@
 
-include("${CMAKE_CURRENT_LIST_DIR}/AEC3Targets.cmake")
-check_required_components(AEC3)
+include(CMakeFindDependencyMacro)
 
-# Set the AEC3 package information
-set(AEC3_LIBRARIES AEC3::AEC3)
-set(AEC3_INCLUDE_DIRS "${PACKAGE_PREFIX_DIR}/include") 
+# Find dependencies (if any)
+# find_dependency(SomeDependency REQUIRED)
+
+# Our library targets
+include("${CMAKE_CURRENT_LIST_DIR}/aecTargets.cmake")
+
+# Define the library targets
+set(AEC_LIBRARIES aec::libaec)
+
+# Component support
+set(AEC_FOUND TRUE)
+
+# Check if library was built with C API
+if(NOT TARGET AEC3::aec3_c_api)
+    set(AEC3_C_API_FOUND FALSE)
+endif() 

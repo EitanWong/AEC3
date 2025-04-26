@@ -2,7 +2,7 @@ CMakeFiles/demo.dir/Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_che
   /Users/eitan/Documents/Projects/C/AEC3/base/rtc_base/race_checker.cc \
   /Users/eitan/Documents/Projects/C/AEC3/demo/../base/rtc_base/race_checker.h \
   /Users/eitan/Documents/Projects/C/AEC3/demo/../base/rtc_base/checks.h \
-  /Users/eitan/Documents/Projects/C/AEC3/demo/../build_config.h \
+  /Users/eitan/Documents/Projects/C/AEC3/demo/../api/build_config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

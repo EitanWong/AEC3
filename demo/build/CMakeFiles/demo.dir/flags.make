@@ -3,7 +3,7 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DWEBRTC_MAC -DWEBRTC_POSIX
+C_DEFINES = -DWEBRTC_APM_DEBUG_DUMP=0 -DWEBRTC_MAC -DWEBRTC_POSIX
 
 C_INCLUDES = -I/Users/eitan/Documents/Projects/C/AEC3/demo -I/Users/eitan/Documents/Projects/C/AEC3/demo/.. -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base/abseil -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base/jsoncpp/include -I/Users/eitan/Documents/Projects/C/AEC3/demo/../audio_processing -I/Users/eitan/Documents/Projects/C/AEC3/demo/../api
 
@@ -11,7 +11,7 @@ C_FLAGSarm64 =  -arch arm64 -arch arm64 -Wno-deprecated-builtins
 
 C_FLAGS =  -arch arm64 -arch arm64 -Wno-deprecated-builtins
 
-CXX_DEFINES = -DWEBRTC_MAC -DWEBRTC_POSIX
+CXX_DEFINES = -DWEBRTC_APM_DEBUG_DUMP=0 -DWEBRTC_MAC -DWEBRTC_POSIX
 
 CXX_INCLUDES = -I/Users/eitan/Documents/Projects/C/AEC3/demo -I/Users/eitan/Documents/Projects/C/AEC3/demo/.. -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base/abseil -I/Users/eitan/Documents/Projects/C/AEC3/demo/../base/jsoncpp/include -I/Users/eitan/Documents/Projects/C/AEC3/demo/../audio_processing -I/Users/eitan/Documents/Projects/C/AEC3/demo/../api
 

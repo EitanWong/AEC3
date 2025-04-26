@@ -9,6 +9,7 @@ set(API_SOURCES
     ${CMAKE_SOURCE_DIR}/../api/echo_canceller3_config.cc
     ${CMAKE_SOURCE_DIR}/../api/echo_canceller3_config_json.cc
     ${CMAKE_SOURCE_DIR}/../api/echo_canceller3_factory.cc
+    ${CMAKE_SOURCE_DIR}/../api/aec3_api.cc
 )
 
 # Add system_wrappers sources
@@ -156,6 +157,7 @@ target_include_directories(demo PRIVATE
 target_compile_definitions(demo PRIVATE
     WEBRTC_POSIX
     WEBRTC_MAC
+    WEBRTC_APM_DEBUG_DUMP=0
 )
 
 # Set compiler flags for macOS ARM

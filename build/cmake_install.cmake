@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/eitan/Documents/Projects/C/AEC3/build/lib/libAEC3.dylib")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libAEC3.dylib" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libAEC3.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/eitan/Documents/Projects/C/AEC3/build/lib/aec.dylib")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/aec.dylib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/aec.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libAEC3.dylib")
+      execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/aec.dylib")
     endif()
   endif()
 endif()
@@ -51,15 +51,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3/AEC3Targets.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/aec/aecTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3/AEC3Targets.cmake"
-         "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/63293bc04864f89a98033f6e527a4889/AEC3Targets.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/aec/aecTargets.cmake"
+         "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/f8d9b1ab7934ccf1a24c058bff6cf6cf/aecTargets.cmake")
     if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3/AEC3Targets-*.cmake")
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/aec/aecTargets-*.cmake")
       if(_cmake_old_config_files)
         string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3/AEC3Targets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/aec/aecTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
         unset(_cmake_old_config_files_text)
         file(REMOVE ${_cmake_old_config_files})
       endif()
@@ -67,21 +67,21 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3" TYPE FILE FILES "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/63293bc04864f89a98033f6e527a4889/AEC3Targets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3" TYPE FILE FILES "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/63293bc04864f89a98033f6e527a4889/AEC3Targets-release.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/aec" TYPE FILE FILES "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/f8d9b1ab7934ccf1a24c058bff6cf6cf/aecTargets.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/aec" TYPE FILE FILES "/Users/eitan/Documents/Projects/C/AEC3/build/CMakeFiles/Export/f8d9b1ab7934ccf1a24c058bff6cf6cf/aecTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/AEC3" TYPE FILE FILES
-    "/Users/eitan/Documents/Projects/C/AEC3/build/AEC3Config.cmake"
-    "/Users/eitan/Documents/Projects/C/AEC3/build/AEC3ConfigVersion.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/aec" TYPE FILE FILES
+    "/Users/eitan/Documents/Projects/C/AEC3/build/aecConfig.cmake"
+    "/Users/eitan/Documents/Projects/C/AEC3/build/aecConfigVersion.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/api" TYPE DIRECTORY FILES "/Users/eitan/Documents/Projects/C/AEC3/api/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/eitan/Documents/Projects/C/AEC3/api/aec3_api.h")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
