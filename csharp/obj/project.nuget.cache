@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "y7FyfBd9yOs=",
+  "success": true,
+  "projectFilePath": "/Users/eitan/Documents/Projects/C/AEC3/csharp/AEC3Wrapper.csproj",
+  "expectedPackageFiles": [
+    "/Users/eitan/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/9.0.0/microsoft.netcore.app.runtime.osx-arm64.9.0.0.nupkg.sha512",
+    "/Users/eitan/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/9.0.0/microsoft.aspnetcore.app.runtime.osx-arm64.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

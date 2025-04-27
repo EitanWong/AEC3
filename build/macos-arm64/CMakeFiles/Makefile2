@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/libaec.dir/all
+all: CMakeFiles/libaec3.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/libaec.dir/codegen
+codegen: CMakeFiles/libaec3.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/libaec.dir/clean
+clean: CMakeFiles/libaec3.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/libaec.dir
+# Target rules for target CMakeFiles/libaec3.dir
 
 # All Build rule for target.
-CMakeFiles/libaec.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec.dir/build.make CMakeFiles/libaec.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec.dir/build.make CMakeFiles/libaec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target libaec"
-.PHONY : CMakeFiles/libaec.dir/all
+CMakeFiles/libaec3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec3.dir/build.make CMakeFiles/libaec3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec3.dir/build.make CMakeFiles/libaec3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target libaec3"
+.PHONY : CMakeFiles/libaec3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/libaec.dir/rule: cmake_check_build_system
+CMakeFiles/libaec3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles 99
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libaec.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libaec3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles 0
-.PHONY : CMakeFiles/libaec.dir/rule
+.PHONY : CMakeFiles/libaec3.dir/rule
 
 # Convenience name for target.
-libaec: CMakeFiles/libaec.dir/rule
-.PHONY : libaec
+libaec3: CMakeFiles/libaec3.dir/rule
+.PHONY : libaec3
 
 # codegen rule for target.
-CMakeFiles/libaec.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec.dir/build.make CMakeFiles/libaec.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Finished codegen for target libaec"
-.PHONY : CMakeFiles/libaec.dir/codegen
+CMakeFiles/libaec3.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec3.dir/build.make CMakeFiles/libaec3.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eitan/Documents/Projects/C/AEC3/build/macos-arm64/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Finished codegen for target libaec3"
+.PHONY : CMakeFiles/libaec3.dir/codegen
 
 # clean rule for target.
-CMakeFiles/libaec.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec.dir/build.make CMakeFiles/libaec.dir/clean
-.PHONY : CMakeFiles/libaec.dir/clean
+CMakeFiles/libaec3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libaec3.dir/build.make CMakeFiles/libaec3.dir/clean
+.PHONY : CMakeFiles/libaec3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

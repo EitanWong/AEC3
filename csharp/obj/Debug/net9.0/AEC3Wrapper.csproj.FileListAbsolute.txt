@@ -1,0 +1,15 @@
+/Users/eitan/Documents/Projects/C/AEC3/csharp/bin/Debug/net9.0/AEC3Wrapper
+/Users/eitan/Documents/Projects/C/AEC3/csharp/bin/Debug/net9.0/AEC3Wrapper.deps.json
+/Users/eitan/Documents/Projects/C/AEC3/csharp/bin/Debug/net9.0/AEC3Wrapper.runtimeconfig.json
+/Users/eitan/Documents/Projects/C/AEC3/csharp/bin/Debug/net9.0/AEC3Wrapper.dll
+/Users/eitan/Documents/Projects/C/AEC3/csharp/bin/Debug/net9.0/AEC3Wrapper.pdb
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.AssemblyInfoInputs.cache
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.AssemblyInfo.cs
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.csproj.CoreCompileInputs.cache
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.sourcelink.json
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.dll
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/refint/AEC3Wrapper.dll
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.pdb
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/AEC3Wrapper.genruntimeconfig.cache
+/Users/eitan/Documents/Projects/C/AEC3/csharp/obj/Debug/net9.0/ref/AEC3Wrapper.dll

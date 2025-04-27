@@ -1,4 +1,4 @@
-/Users/eitan/Documents/Projects/C/AEC3/install/macos-arm64/lib/aec.dylib
+/Users/eitan/Documents/Projects/C/AEC3/install/macos-arm64/lib/aec3.dylib
 /Users/eitan/Documents/Projects/C/AEC3/install/macos-arm64/lib/cmake/aec/aecTargets.cmake
 /Users/eitan/Documents/Projects/C/AEC3/install/macos-arm64/lib/cmake/aec/aecTargets-release.cmake
 /Users/eitan/Documents/Projects/C/AEC3/install/macos-arm64/lib/cmake/aec/aecConfig.cmake

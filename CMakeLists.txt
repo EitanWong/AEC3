@@ -202,11 +202,11 @@ void rftfsub_128_SSE2(float* a) {
 ]])
 
 # Create a single library with simplified name
-add_library(libaec ${ALL_SOURCES})
+add_library(libaec3 ${ALL_SOURCES})
 
 # Set library output name - removing 'lib' prefix on non-Windows platforms
-set_target_properties(libaec PROPERTIES 
-    OUTPUT_NAME "aec"
+set_target_properties(libaec3 PROPERTIES 
+    OUTPUT_NAME "aec3"
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
     ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
@@ -214,7 +214,7 @@ set_target_properties(libaec PROPERTIES
 )
 
 # Set up include directories
-target_include_directories(libaec 
+target_include_directories(libaec3 
     PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/api>
@@ -229,12 +229,12 @@ target_include_directories(libaec
 )
 
 # Add global define for APM debug dump
-target_compile_definitions(libaec PRIVATE WEBRTC_APM_DEBUG_DUMP=0)
+target_compile_definitions(libaec3 PRIVATE WEBRTC_APM_DEBUG_DUMP=0)
 
 # Add include directories for the SIMD stubs
 if(NOT USE_SIMD)
     # Disable architecture-specific SIMD optimizations
-    target_compile_definitions(libaec PRIVATE 
+    target_compile_definitions(libaec3 PRIVATE 
         WEBRTC_ARCH_ARM_NEON=0 
         WEBRTC_ARCH_X86_SSE2=0
         WEBRTC_DISABLE_SSE2=1
@@ -243,25 +243,25 @@ endif()
 
 # Set up platform-specific compile definitions
 if(WIN32)
-    target_compile_definitions(libaec PRIVATE WEBRTC_WIN NOMINMAX WIN32_LEAN_AND_MEAN)
+    target_compile_definitions(libaec3 PRIVATE WEBRTC_WIN NOMINMAX WIN32_LEAN_AND_MEAN)
 elseif(APPLE)
-    target_compile_definitions(libaec PRIVATE WEBRTC_POSIX WEBRTC_MAC)
+    target_compile_definitions(libaec3 PRIVATE WEBRTC_POSIX WEBRTC_MAC)
     # Link CoreFoundation on macOS/iOS
     find_library(CORE_FOUNDATION_FRAMEWORK CoreFoundation)
     if(CORE_FOUNDATION_FRAMEWORK)
-        target_link_libraries(libaec PRIVATE ${CORE_FOUNDATION_FRAMEWORK})
+        target_link_libraries(libaec3 PRIVATE ${CORE_FOUNDATION_FRAMEWORK})
     endif()
 elseif(ANDROID)
-    target_compile_definitions(libaec PRIVATE WEBRTC_POSIX WEBRTC_ANDROID __STDC_FORMAT_MACROS)
+    target_compile_definitions(libaec3 PRIVATE WEBRTC_POSIX WEBRTC_ANDROID __STDC_FORMAT_MACROS)
 elseif(IOS)
-    target_compile_definitions(libaec PRIVATE WEBRTC_POSIX WEBRTC_IOS WEBRTC_MAC)
+    target_compile_definitions(libaec3 PRIVATE WEBRTC_POSIX WEBRTC_IOS WEBRTC_MAC)
     # Link CoreFoundation on macOS/iOS
     find_library(CORE_FOUNDATION_FRAMEWORK CoreFoundation)
     if(CORE_FOUNDATION_FRAMEWORK)
-        target_link_libraries(libaec PRIVATE ${CORE_FOUNDATION_FRAMEWORK})
+        target_link_libraries(libaec3 PRIVATE ${CORE_FOUNDATION_FRAMEWORK})
     endif()
 elseif(UNIX)
-    target_compile_definitions(libaec PRIVATE WEBRTC_POSIX WEBRTC_LINUX)
+    target_compile_definitions(libaec3 PRIVATE WEBRTC_POSIX WEBRTC_LINUX)
 endif()
 
 # Special flags for C files
@@ -272,9 +272,9 @@ set_source_files_properties(
 
 # Add include for stddef.h to fix size_t issue in C files
 if(WIN32)
-    target_compile_options(libaec PRIVATE /EHsc /MP)
+    target_compile_options(libaec3 PRIVATE /EHsc /MP)
 else()
-    target_compile_options(libaec PRIVATE -Wno-deprecated-builtins -Wno-macro-redefined)
+    target_compile_options(libaec3 PRIVATE -Wno-deprecated-builtins -Wno-macro-redefined)
 endif()
 
 # Platform-specific configurations
@@ -296,7 +296,7 @@ endif()
 
 if(BUILD_IOS)
     # iOS-specific setup
-    set_target_properties(libaec PROPERTIES
+    set_target_properties(libaec3 PROPERTIES
         XCODE_ATTRIBUTE_IPHONEOS_DEPLOYMENT_TARGET "11.0"
         XCODE_ATTRIBUTE_ENABLE_BITCODE "YES"
         XCODE_ATTRIBUTE_ONLY_ACTIVE_ARCH "NO"
@@ -323,7 +323,7 @@ write_basic_package_version_file(
 )
 
 # Install the targets and export files
-install(TARGETS libaec
+install(TARGETS libaec3
     EXPORT aecTargets
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib

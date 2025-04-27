@@ -20,6 +20,16 @@ mkdir -p ${INSTALL_DIR}
 echo -e "${YELLOW}Building AEC acoustic echo cancellation library${NC}"
 echo -e "${YELLOW}Root directory: ${ROOT_DIR}${NC}"
 
+# clean install directory
+echo -e "${YELLOW}Cleaning install directory${NC}"
+rm -rf ${INSTALL_DIR}
+echo -e "${GREEN}Install directory cleaned${NC}"
+
+# clean build directory
+echo -e "${YELLOW}Cleaning build directory${NC}"
+rm -rf ${BUILD_DIR}
+echo -e "${GREEN}Build directory cleaned${NC}"
+
 # Function to build for a specific platform
 build_platform() {
     local platform=$1
@@ -88,7 +98,7 @@ if [[ "${HOST_SYSTEM}" == "Darwin" ]]; then
         mkdir -p "${INSTALL_DIR}/macos/include"
         
         # Create universal binary with the new library name
-        lipo -create "${INSTALL_DIR}/macos-arm64/lib/aec.dylib" "${INSTALL_DIR}/macos-x86_64/lib/aec.dylib" -output "${INSTALL_DIR}/macos/lib/aec.dylib"
+        lipo -create "${INSTALL_DIR}/macos-arm64/lib/aec3.dylib" "${INSTALL_DIR}/macos-x86_64/lib/aec3.dylib" -output "${INSTALL_DIR}/macos/lib/aec3.dylib"
         
         # Copy the cmake files for the new library
         mkdir -p "${INSTALL_DIR}/macos/lib/cmake/aec"
@@ -97,7 +107,7 @@ if [[ "${HOST_SYSTEM}" == "Darwin" ]]; then
         # Copy headers
         cp -R "${INSTALL_DIR}/macos-arm64/include/"* "${INSTALL_DIR}/macos/include/"
         
-        echo -e "${GREEN}Universal binary created at: ${INSTALL_DIR}/macos/lib/aec.dylib${NC}"
+        echo -e "${GREEN}Universal binary created at: ${INSTALL_DIR}/macos/lib/aec3.dylib${NC}"
     fi
 
     # Build for iOS (requires Xcode)
