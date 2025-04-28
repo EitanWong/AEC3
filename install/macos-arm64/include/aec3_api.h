@@ -29,7 +29,8 @@ int aec3_process_frame(
     const int16_t* capture_frame,    // Capture (near-end) audio
     int16_t* output_frame,           // Processed output
     int16_t* linear_output_frame,    // Linear AEC output (if enabled)
-    size_t frame_size                // Number of samples per channel
+    size_t frame_size,               // Number of samples per channel
+    int buffer_delay                 // Audio buffer delay in samples
 );
 
 // Destroy an AEC3 instance

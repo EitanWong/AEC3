@@ -44,8 +44,9 @@ namespace AEC3
         /// <param name="captureFrame">Capture (near-end) audio with echo</param>
         /// <param name="outputFrame">Buffer to receive processed output (echo cancelled audio)</param>
         /// <param name="linearOutputFrame">Optional buffer to receive linear AEC output (if enabled)</param>
+        /// <param name="audioBufferDelay">Optional audio buffer delay in samples</param>
         /// <returns>True if processing succeeded, false otherwise</returns>
-        public bool ProcessFrame(short[] referenceFrame, short[] captureFrame, short[] outputFrame, short[] linearOutputFrame = null)
+        public bool ProcessFrame(short[] referenceFrame, short[] captureFrame, short[] outputFrame, short[] linearOutputFrame = null, int audioBufferDelay = 0)
         {
             if (_disposed)
                 throw new ObjectDisposedException(nameof(AEC3Processor));
@@ -79,7 +80,8 @@ namespace AEC3
                 captureFrame,
                 outputFrame,
                 linearOutputFrame,
-                (IntPtr)samplesPerChannel
+                (IntPtr)samplesPerChannel,
+                audioBufferDelay
             );
 
             return result == 0;

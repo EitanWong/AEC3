@@ -38,6 +38,33 @@ dotnet run
 3. Add the C# files to your project
 4. Use the `AEC3Processor` class as shown in `Example.cs`
 
+## Command Line Arguments
+
+The example application supports the following command-line arguments:
+
+```
+./AEC3Wrapper [ref.wav] [rec.wav] [out.wav] [options]
+```
+
+Options:
+- `--test` - Use generated test data instead of loading WAV files
+- `--delay <samples>` - Set audio buffer delay in samples (integer value)
+
+## Audio Buffer Delay
+
+The `AEC3Processor.ProcessFrame` method includes an optional `audioBufferDelay` parameter that allows you to specify a delay in samples between the reference and capture audio streams. This is useful for compensating for any system-specific delays in your audio processing pipeline.
+
+```csharp
+// Process a frame with 40 samples delay
+bool success = aec.ProcessFrame(
+    referenceFrame,
+    captureFrame,
+    outputFrame,
+    linearOutputFrame,
+    audioBufferDelay: 40
+);
+```
+
 ## Basic Example
 
 ```csharp
@@ -56,12 +83,13 @@ using (var aec = new AEC3Processor(
     // Fill referenceFrame with audio from the far end (e.g., speaker)
     // Fill captureFrame with audio from the near end (e.g., microphone)
 
-    // Process the audio
+    // Process the audio with a specific buffer delay
     bool success = aec.ProcessFrame(
         referenceFrame,
         captureFrame,
         outputFrame,
-        linearOutputFrame);
+        linearOutputFrame,
+        audioBufferDelay: 40);
 
     // Use the processed audio in outputFrame (echo-cancelled audio)
 }

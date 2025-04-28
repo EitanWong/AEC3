@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using gccphat_core;
 
 namespace AEC3
 {
@@ -56,6 +57,92 @@ namespace AEC3
             return buffer;
         }
 
+        static int CalculateAudioBufferDelay(short[] refData, short[] recData, int sampleRate, int channels)
+        {
+            // Default parameters for GccPhat
+            int fmin = 300;
+            int fmax = 3000;
+
+            // For best results with FFT, use a power of 2 for frame size
+            int frameSize = 2048;
+            
+            // Convert data to double arrays for processing
+            double[] refDouble = new double[frameSize];
+            double[] recDouble = new double[frameSize];
+            
+            // Use only the first channel if we have stereo audio
+            for (int i = 0; i < frameSize; i++)
+            {
+                if (i < refData.Length)
+                {
+                    refDouble[i] = channels == 1 ? 
+                        refData[i] : 
+                        refData[Math.Min(i * 2, refData.Length - 1)];
+                }
+                
+                if (i < recData.Length)
+                {
+                    recDouble[i] = channels == 1 ? 
+                        recData[i] : 
+                        recData[Math.Min(i * 2, recData.Length - 1)];
+                }
+            }
+            
+            // Calculate delay using GccPhat
+            var (timeDelayMs, _) = GccPhatCore.GCCPHAT(refDouble, recDouble, sampleRate, 1, fmin, fmax);
+            
+            // Convert delay from milliseconds to samples
+            int delaySamples = (int)Math.Round(timeDelayMs * sampleRate / 1000.0);
+            
+            Console.WriteLine($"Detected delay: {timeDelayMs:F2} ms ({delaySamples} samples)");
+            
+            return delaySamples;
+        }
+        
+        static void UpdateDelayEstimation(short[] refData, short[] recData, int sampleRate, int channels, ref int audioBufferDelay)
+        {
+            // Process in chunks to provide real-time-like behavior
+            int chunkSize = 4096; // Use a larger chunk for more accurate delay estimation
+            int totalChunks = Math.Min(refData.Length, recData.Length) / (chunkSize * channels);
+            int totalDelayEstimates = 0;
+            int sumDelayEstimates = 0;
+            
+            Console.WriteLine("Estimating audio buffer delay...");
+            
+            for (int chunk = 0; chunk < totalChunks; chunk += 2) // Process every other chunk to save time
+            {
+                int offset = chunk * chunkSize * channels;
+                short[] refChunk = new short[chunkSize * channels];
+                short[] recChunk = new short[chunkSize * channels];
+                
+                Array.Copy(refData, offset, refChunk, 0, chunkSize * channels);
+                Array.Copy(recData, offset, recChunk, 0, chunkSize * channels);
+                
+                int delayEstimate = CalculateAudioBufferDelay(refChunk, recChunk, sampleRate, channels);
+                
+                // Add to running average if delay estimate seems reasonable (not extreme outliers)
+                if (Math.Abs(delayEstimate) < sampleRate / 2) // Limit to half a second of delay
+                {
+                    sumDelayEstimates += delayEstimate;
+                    totalDelayEstimates++;
+                }
+                
+                // Show progress
+                PrintProgress(chunk + 1, totalChunks);
+            }
+            
+            if (totalDelayEstimates > 0)
+            {
+                // Calculate average delay
+                audioBufferDelay = sumDelayEstimates / totalDelayEstimates;
+                Console.WriteLine($"\nEstimated audio buffer delay: {audioBufferDelay} samples ({audioBufferDelay * 1000.0 / sampleRate:F2} ms)");
+            }
+            else
+            {
+                Console.WriteLine("\nCould not reliably estimate audio buffer delay. Using default value.");
+            }
+        }
+
         static void Main(string[] args)
         {
             // Parse command-line arguments or use defaults
@@ -66,32 +153,51 @@ namespace AEC3
             bool useTestData = false;
             int sampleRate = 16000;
             int numChannels = 1;
+            int audioBufferDelay = 0;
+            bool autoDetectDelay = false;
             
-            if (args.Length >= 3)
+            // Process command line arguments
+            for (int i = 0; i < args.Length; i++)
             {
-                refFile = args[0];
-                recFile = args[1];
-                outFile = args[2];
-                
-                // Check if --test flag is present
-                if (args.Length > 3 && args[3] == "--test")
+                if (i == 0 && !args[i].StartsWith("--"))
+                {
+                    refFile = args[i];
+                }
+                else if (i == 1 && !args[i].StartsWith("--"))
+                {
+                    recFile = args[i];
+                }
+                else if (i == 2 && !args[i].StartsWith("--"))
+                {
+                    outFile = args[i];
+                }
+                else if (args[i] == "--test")
                 {
                     useTestData = true;
                 }
+                else if (args[i] == "--delay" && i + 1 < args.Length)
+                {
+                    if (int.TryParse(args[i + 1], out int delay))
+                    {
+                        audioBufferDelay = delay;
+                        i++; // Skip the next argument since we've processed it
+                    }
+                    else
+                    {
+                        Console.Error.WriteLine($"Invalid delay value: {args[i + 1]}");
+                    }
+                }
+                else if (args[i] == "--auto-delay")
+                {
+                    autoDetectDelay = true;
+                }
             }
-            else
-            {
-                Console.WriteLine("Usage: dotnet run ref.wav rec.wav out.wav [--test]");
-                Console.WriteLine("Using default filenames: ref.wav, rec.wav, out.wav");
-                
-                // No arguments provided, use test data
-                useTestData = true;
-            }
-
+            
             Console.WriteLine("======================================");
             Console.WriteLine($"ref file is: {refFile}");
             Console.WriteLine($"rec file is: {recFile}");
             Console.WriteLine($"out file is: {outFile}");
+            Console.WriteLine($"Audio buffer delay: {(autoDetectDelay ? "AUTO" : audioBufferDelay.ToString())} samples");
             if (useTestData)
                 Console.WriteLine("Using generated test data");
             Console.WriteLine("======================================");
@@ -172,6 +278,12 @@ namespace AEC3
                                 recData[i * 2 + 1] = rightRec[i];
                             }
                         }
+                        
+                        // Auto-detect delay if requested
+                        if (autoDetectDelay)
+                        {
+                            UpdateDelayEstimation(refData, recData, refSampleRate, refChannels, ref audioBufferDelay);
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -221,6 +333,12 @@ namespace AEC3
                 
                 Console.WriteLine("Generated test data:");
                 PrintWavInformation("Generated reference", refFormat, refChannels, refSampleRate, refBitsPerSample, refDataLength);
+                
+                // Auto-detect delay in test data if requested
+                if (autoDetectDelay)
+                {
+                    UpdateDelayEstimation(refData, recData, refSampleRate, refChannels, ref audioBufferDelay);
+                }
             }
 
             // Create AEC3 instance
@@ -266,12 +384,13 @@ namespace AEC3
                     Array.Copy(refData, frameOffset, refBuffer, 0, Math.Min(refBuffer.Length, refData.Length - frameOffset));
                     Array.Copy(recData, frameOffset, recBuffer, 0, Math.Min(recBuffer.Length, recData.Length - frameOffset));
                     
-                    // Process frame
+                    // Process frame with audio buffer delay
                     bool success = aec.ProcessFrame(
                         refBuffer,
                         recBuffer,
                         outputBuffer,
-                        linearOutputBuffer
+                        linearOutputBuffer,
+                        audioBufferDelay
                     );
                     
                     if (!success)

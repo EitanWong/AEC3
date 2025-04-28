@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AEC3Wrapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75006d6d68d729bdf082cc4ae99eb35aa80c8c8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ccfdbd075e08d3a6c90095f474db2dee5d273c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AEC3Wrapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AEC3Wrapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

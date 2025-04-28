@@ -63,7 +63,8 @@ int aec3_process_frame(
     const int16_t* capture_frame,
     int16_t* output_frame,
     int16_t* linear_output_frame,
-    size_t frame_size) {
+    size_t frame_size,
+    int buffer_delay) {
     
     if (!handle || !reference_frame || !capture_frame || !output_frame) {
         return -1;
@@ -90,7 +91,9 @@ int aec3_process_frame(
     handle->echo_controller->AnalyzeCapture(handle->aec_audio.get());
     handle->aec_audio->SplitIntoFrequencyBands();
     handle->hp_filter->Process(handle->aec_audio.get(), true);
-    handle->echo_controller->SetAudioBufferDelay(0);
+    
+    // Use the buffer_delay parameter instead of hardcoded value
+    handle->echo_controller->SetAudioBufferDelay(buffer_delay);
     
     if (handle->aec_linear_audio) {
         handle->echo_controller->ProcessCapture(

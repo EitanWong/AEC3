@@ -95,7 +95,8 @@ namespace AEC3
             [In] short[] captureFrame,      // Capture (near-end) audio
             [Out] short[] outputFrame,      // Processed output
             [Out] short[] linearOutputFrame, // Linear AEC output (can be null if not enabled)
-            IntPtr frameSize                 // Number of samples per channel
+            IntPtr frameSize,                // Number of samples per channel
+            int bufferDelay = 0             // Optional audio buffer delay in samples
         );
 
         /// <summary>
